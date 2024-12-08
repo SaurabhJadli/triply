@@ -1,0 +1,87 @@
+
+.App {
+	height: 100vh;
+	width: 100%;
+	display: block;
+	flex-direction: column;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	height: min-content;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.heading {
+	font-family: 'arial', cursive;
+	font-size: 35px;
+}
+
+.container-manual {
+	height: auto;
+	width: 800px;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	margin: auto
+}
+
+.Curr-input {
+	padding-left: 5px;
+	font-size: 20px;
+	height: 36px;
+	
+}
+
+.middle,
+.right {
+	width: 120px;
+}
+
+.switch {
+	padding: 5px;
+	background-color: rgb(226, 252, 184);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.result {
+	width: 100%;
+	padding-left: 30px;
+}
+
+.Curr-button {
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+	border: 2px solid forestgreen;
+	background-color: rgb(226, 252, 184);
+	cursor: pointer;
+
+}
+
+.curr-p,
+.curr-h3,
+.curr-button,
+.switch {
+	color: forestgreen;
+}
+
+.curr-p {
+	font-size: 30px;
+}
+
+
+.curr-select {
+	width: 27%;
+	display: flex;
+  }
+  
+  .curr-conv {
+	display: flex;
+	flex-direction: column;
+  }
