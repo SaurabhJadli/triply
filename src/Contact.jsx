@@ -39,7 +39,7 @@ export default function Contact() {
                 <img src="/img/address.png" class="img-fluid category-img" alt="address logo" />
 
                     <h3>Address</h3>
-                    <h4>123 Main St, Anytown USA</h4>
+                    <h4>123 Main St, Anytown India</h4>
                 </li>
 
                 <li className="m-4">
