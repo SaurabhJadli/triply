@@ -1,6 +1,5 @@
 // App.js
 import { useEffect, useState } from 'react';
-import 'react-dropdown/style.css';
 import './CurrencyConverter.css';
 import React from 'react';
 import Header from '../components/Header';
